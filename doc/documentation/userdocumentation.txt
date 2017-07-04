@@ -1,0 +1,49 @@
+PREREQUISITES
+KNOWLEDGE ABOUT LINUX AND RUNNING COMMANDS IN TERMINAL FOR INSTALLING PREREQUISTE PACKAGES FOR RUNNING THE TOOL
+Knowledge about using a web browser
+Knowledge about SSL and SSH
+Basic knowledge about 	MYSQL-SERVER
+FEAUTRES OF THE  TOOL:
+ The tool consists of front end,database and back end.the front end consists of web pages written in HTML,CSS and php these are used to design graphical user interface. HTML and CSS are used to design the web page and php is used to connect the web pages
+The database is the main part of our project it is used to connect the front end and backend of the project. The tool used to design the database is the mysql it is used to create a space to user in order to store the information into the database. By default, the database name is Gryffindor and can be changed manually. the database consists of tables required for the storing of the user credentials as well as the uptime data retrieved by the back end.
+The back end consists of a series of python files that are needed to be running in the system. The backend is used to ensure that the server is constantly pinged to ensure that the system is online. The backend is also used to replicate the files in the database in case if the server  goes down customer can retrieve the files from other servers
+  USER REGISTRATION:
+             At first in order to store the data into the data base the user must first register into the server.so first he needs to enter his credentials into the registration page and he receives a confirmation mail from the admin server and later he has to use his login details to log into the database. At first to login page we see too types of options
+1, login details
+2, register new user
+ The user can log into the database by writing the login details in the login page from there they are permitted to login into the dashboard. After logging into the database he can see at the top where three options are displayed and at the home page we can see all the files and choose a file
+ The file which the customer is uploading shall not exceed 16 m b 
+For new users they have to create an account through the register page and later they are permitted to log in into the dashboard
+STATUS AND UPTIME OF EACH SERVICE:
+After logging in, the user is brought to the home page of the tool dashboard. When the user uploads the file it randomly uploads into any server later it is replicated. The backend programming constantly pings the server if the service of the server is down than the system is taken as error server than the admin server checks over the problem and than it is brought online during the loss of its service due to pinging we can know how long was the service down. All the information abou the service is noted down in the tables of the database
+Replication of files:
+The back end programming is used to replicate the files. The user who wants to upload the files and uploads it in a randomly chosen server and from this  server the file is replicated into rest of the servers and from these servers the user can download the file if the server he choose  to upload is offline
+The replication of these files is done by the database cluster in which there are two databases one is master database and slave database. The master has the access to use the both his database and slave database but the slave can access only his database
+
+USAGE GUIDE
+The tool requires a ssh connection to the server to be run in the background continuously
+The connection facilitates the retrieval of status and uptime data from  server with the help of backend python scripts
+The user will also be given a file containing database parameters which needs to be executed before starting
+The file contains ssh host name and passphrase needed for establishment of the ssh connection
+The user must enter login page of the tool. Username and password must be entered to gain access to the dashboard
+Username:
+Password:
+These are the default user credentials initially login into login page
+When the user enters into the dashboard he can see the following options
+Upload
+Download 
+View files
+Delete files
+Share files
+Change password
+Upon entering the dashboard the user is provided with above options he can use these options as per his wish
+On dashboard he can see the files and can do all the modifications required to the files the upload of the files is limited
+
+If he wants to download the file he can download it from the dash board
+If the user wants to upload the file it randomly selects a server and and from the server he enters into the dashboard and uploads the file in that server
+The server in which the file is uploaded is replicated and sent to the rest of the servers
+If the server is down the admin server fixes it and whe the user wants to download it during that process he can perform it from the other servers
+When the server is down and after it is repaired it set for the available condition
+FINAL OUTPUTS
+The user will be able to upload and download the files whenever he wants
+The service is made sure that it is always uptime and even in the case when the server is down the user can download the file

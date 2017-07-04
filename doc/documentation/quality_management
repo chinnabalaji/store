@@ -1,0 +1,19 @@
+QUALITY MANAGEMENT: - quality management is essential that the developed product is reliable and not slow and easy to use these things are assured to the customer through the quality management
+At project level quality management is essential for ensuring that the project outputs are conformant with the standards that are applicable to the project and it must set out the goals for the project and define what processes and standards are to be used.
+Sometimes quality assurance includes all configuration management ,verification and validation that are applied after a project is handed over t the developers. It is the duty of the quality management team to ensure that the product covers all the requirements and the proper records are maintained.
+Quality management team should be independent from that of a developing team to ensure that they can take an objective view of the software which allows them to report that the software quality without being influenced by the developing team.this team shall make sure that the quality of the product is not compromised at any cost.
+QUALITY PLAN:-
+Product introduction a deep description of the project its intended market and the quality expectations of the project.
+Product plans the critical release dates and responsibilities for the product along with the plans for distribution and product servicing.
+Quality goals  the quality goals and plans for the product including an identification and justification of critical product quality attributes
+Quality documentation is arecord of what has been done by each subgroup in this project.it helps people or the customers that the important tasks have not been forgotten or one group has not made incorrect assumptions about what other groups had done.
+The quality management must answer few questions .if the project had answered these questions than the project can be released
+Has the software been properly tested?
+Is the software sufficiently dependable to be put into use?Is the performance of the software acceptable for normal use?
+Is the software usable?
+In order to ensure the quality management software standards must be ensured for the product. There are two types of standards 
+Product standards:- these apply to the software product.they include the document standards ,coding standards( which define how a programming language should be used).product standards have to be designed so that they can be applied and checked in a as a cost effective.
+Process standards these define the processes that should be followed during software development they include specifications,design and validation processes.
+REVIEWS AND INSPECTIONS are QA activities they check the quality of project deliverables.this involves examing the software its documentation and records of the process to discover errors and omissions to  see if the quality standards have been followd.the conclusion of the review should be formally recorded as part of th quality management processes.
+
+These are the steps taken by the quality management team to ensure a complete satisfaction to the customer over the product.

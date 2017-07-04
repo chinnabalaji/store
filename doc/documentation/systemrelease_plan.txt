@@ -1,0 +1,34 @@
+system release plan:
+12.1 Testing plan:
+After developing the complete product , tests will be performed.in  a group few people perform the tests required for the detection of the bugs and ensure efficiency of the product. The tester of the product is the developer of the software. For a formal process a separate testing group within the development team is used.
+Testing is carried out in a three levels of granularity.:
+1, unit testing:
+Where individual program units or object classes are tested.it focuses on the functionality of objects or methods.
+2, Component testing:
+It is used to focus on testing component interfaces. Where several individual units are integrated into a composite component
+3, system testing
+ where some or all the components in a system are integrated and the system is tested on a whole.
+Development testing is primarily a defect testing process, where the aim of the testing is to discover bugs in the software.it is therefore usually interleaved with debugging the process of locating the problems with the code.
+12.2 Packaging plan:
+A compressed tar.gz file is provided to the user consisting all the source code, library files and related documents. The details of the release plan are given
+Release candidate: 
+Final release
+
+12.3 documentation plan:
+12.3.1 installation documentation:
+         The installation document is in the pdf format it consists all the information bout installation process for the different software’s used in the product and also the configuration settings for different components
+Time schedule 
+It is also divided into two phases they are 
+Documentation testing phase :
+Documentation release phase:
+12.3.2 user documentation: -
+the user documentation is in the form of the pdf format in here the detail information of the product is present it contains details like installation of the product and usage of the product
+Documentation before testing :
+Documentation after testing:
+12.3.3Developer documentation: -
+This document gives scope to the future scope of the project it consists all the source codes and all the related information about the API’S used in the project
+Documentation before testing
+Documentation after test phase: -
+Time schedule
+User documentation is prepared after the installation documentation is done considering the fact that the user has no prior knowledge regarding the usage of the tool.
+

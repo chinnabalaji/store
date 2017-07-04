@@ -1,0 +1,13 @@
+System architecture:
+In this section of the proposal we provide the system architecture .it determines the working of the system initially the system can be determined In three sections they are the front end , database and the back end of the system
+The first section comprises of the front end
+This is section which is visible to the users through this section they are registered into the system
+Front end:
+At first the user is asked to login into the database this done through a series of process through html 5 and css 3 we create a login page to login into the server first he needs to register into the  admin server the admin server provides a verification mail to the user and later conformation of the mail is done the connections for the web pages are done through php.now we need to create a database for the customer by using MySQL. Through the login page the customer logins into the  data base and he can upload the data into his data base. The storage capacity is limited to the customer and he cant  exceed the given storage capacity. Later, he can logout from the page.the information about how much he can store and the data he stored is all are kept under encryption
+Database       
+                    The mysql database contains user authentication data status and uptime information inserted into their respective service tables           
+In the data base through mysql we create a data slot for each customer through front end we can make sure that a customer can access only his files and the through backend we make sure that the customer can access only his files.through mysql we create file replica for all the servers and see that when the main server is down the customer doesn’t face the problem of delay or loss of the data until the admin checks the server and fix it.
+Back end:
+The third section of the architecture is used to connet the entire architecture we use python as back end programming the back end is used to connect the replicas.it is also use to ping the servers constantly if the ping is lost or server is down it is used to send a message to database and in the database it is stored if the coonection is lost
+It retrieves the status and stores it in the database in mysql separate tables are allocated for each  server
+It also facilitates the restart of service open request by the customer the number of restarts are also stored in the database

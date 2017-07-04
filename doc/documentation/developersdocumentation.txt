@@ -1,0 +1,22 @@
+INTRODUCTION:
+This document gives an idea for the further extension of the tool development. This document gives the idea to the user or a developer on what platforms the product is developed
+INTERPRETATION OF TOOL:
+In order to develop the product, we used three main aspects they are the front end, back end and data base. we use html, css and php in order to develop the front end they are used by the customers to register, login and observe the home page. The database is created using the sql database all the data is stored in this database. The backend is used to perform the pinging and replication of the files the replication is done in such a way that the file is present in the rest of the servers. When one of the server is down the user can download the file from other servers.
+SYSTEM ARCHITECTURE
+Programming languages used
+Python
+Html
+Php
+Css 
+Mysql
+Other requirements
+Mysql database
+Organisation of source code
+Monitoring process:
+The tool retrieves the information about the server being online from the ssh connections
+Set up a control node:
+Set up a host name and password using the dbi.config. the control node is set up using the mysql and python bindings.to install use the command used is
+Sudo apt -get install python-mysqldb mysql-client -y
+Run bpi config to expand the root partition and change the hostname and password
+
+

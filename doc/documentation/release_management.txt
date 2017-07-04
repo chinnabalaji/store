@@ -1,0 +1,24 @@
+FRONT END
+F-T1: AUTHENICATION
+TEST: login page test
+Purpose: TO create an access to the customer to login into the dashboard.it is also used to prevent unauthorised users to login into the page
+requirements:
+Environment: browser for rendering the webpages, php
+	Preinstalled PHP
+	Open terminal
+	Run command: sudo apt-get install php5-server
+	Pre-installed apache server
+	Run command: sudo apt-get install apache2
+	Pre-installed MYSQL database
+	  Run command: sudo apt -get update
+	Run command: sudo apt-get upgrade
+	Run command: sudo apt-get install mysql-server
+	 Database must be created for the users to store data
+
+operations:
+	open web browser
+	go to login html page from local host and enter user credentials
+	if correct credentials are entered, it will direct to dashboard?	if incorrect credentials are entered, alter message is shown and access will be not granted
+Expected result: displays the dashboard to the users and where the user can upload the files
+result:
+Comment: before rendering the webpage apache2 status must be checked. “service apache2” status on the terminal

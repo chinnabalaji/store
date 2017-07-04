@@ -1,0 +1,25 @@
+VERSION MANAGEMENT: -it is the process of keeping track of different versions of software components or configuration items and the systems in which these  components are used.
+The process of merging codelines and base lines
+Version management provides a range of features
+1, storage management: - To reduce the storage space required by multiple version of components that differ only slightly version management provides storage management facilities.
+2, project support: -a version management system may support the development of several projects which share components.it is possible to check in and check out all of the files associated to a project rather than having to work with one file or directory at a time
+3, Independent development: - Different developers may be working on the same component at the same time. The version management system keeps track of components that have been checked out for editing and ensures that changes made to a component by different developers do not interfere
+SYSTEM DEVELOPING: -it is the process of creating a complete executable system by compiling and linking the system components external libraries etc
+System building tools and version management must communicate as the build process involves checking out component versions from the responsibility
+In system building the development system and the build server may both interact with the version management system the version management system may either be hosted on the build server or on a dedicated server
+In order to develop a proper system we need to do the following things
+Build script generation: - it must analyse the program that is being built identify dependent components and automatically generate a build script
+Version management system integration: -the build system should check out the required versions of components from the version management system
+Reporting: - the build system can automatically run automated tests using test automation tools such as junit these check that the build has not been broken by changes
+Documentation generation: -the build systems may be able to generate release notes about the build systems and system help pages
+The build system includes code lines and base lines according to the changes done in the code lines and base lines the concluding build is checked out to build server to build definitive editions of the software and final software is compiled.
+RELEASE MANAGEMENT: -
+A system release is a version of a software system that is distributed to customers.there are two types of release namely major releases and minor releases based upon the release they are categeroised into two.major release significants functionality and minor releases consists of bugs which are fixed and are replaced to the customerto document a release we record the specific versions of the source code components that were used to create the executable code.we keep the copies of the source code files for future modifications.
+The various technical and organisational factors that you should take into account when deciding on when to release a new version of a system.asystem release is not only the executable code of the system these factors are to be taken into the consideration.
+Configuration files defining how the release should be configured for particular installations
+Data files ,sch as the files of error messages are to be taken into the consideration
+An installation proram that is used to help install the system on target behaviour
+Electronic and paper documentation describing the system
+These are the factors that must e taken into the consideration for releasing a new version.
+When planning on the new releases we shouldn’t assume that the customers will always install the new release .some system users may be happy with an existing system .they may not consider it to be worth it for buying a new release we should make sure that the releases are of more beneficiary or should see that they are not released immediately making it less profitable.
+PROGRESS TRACKING: -the progress of the project is constantly tracked by group meetings the project is divided among all the group members. The project head always keeps track of the project he checks over the project progress in group meetings the problems that arise in the project are solved in the group meetings and the project manager divides the work of group member among other members during the illness of a group member. The distribution of our project can be seen when this link is pressed.

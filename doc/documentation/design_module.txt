@@ -1,0 +1,61 @@
+Module 1: -FRONT END
+In this module we described the web interface of the tool. First, the user needs to register into the server customer receives the conformation mail from the admin server. now customer can login into the server the information of the user is stored in the MySQL database.
+
+3.1, Detailed design: -
+The user logins into database through random server. The user can upload all the information into the database through the login page. the admin creates a database to the user and can remove or provide a login to the user. 
+               The random selection of the server is done by the php code. When the user enters the dashboard he can see few options those are upload, download, sharing of files, deletion of files these are the things that are visible in the server. based upon the requirement of the customer the task is performed.
+F-T1: -Module: html -css-php
+            Purpose : for displaying web GUI
+            Requirement: req_sys_1,req_nfsys 1
+             Environment: browser for rendering webpages
+             Operation: -it is used for the user to login into the webpages for the access of the database.      The admin uses it for sending conformation mails for logged user and also adding and removing customers from database
+               Expected result:-
+               Comment: we use these languages for the  creation of the webserver to the customers where they can login into the database.
+Module 2 : database management
+This module contains the database management portion of the product it also includes how the database interacts with the customers
+In here we use MySQL for creation of the database.it is used as an intermediate to interact with the front end the back end of the project.
+4.1, detailed design:
+This module provides the vivid explanation of the database management in the project. we create a database to the customer where customer can store the information and files . The customer is assigned with random server and file is uploaded. we just use database to allocate data to the customer the customer is provided with a limited data of 10 gb.
+
+PHP- MySQL I
+Is a relational database driver that provides an interface between the MySQL and php .it includes functions like establishing connection in the database and functions like manipulating the database (create, delete, modify etc) the admin server can create a database to the customer or also remove him from the database.
+Python – MySQL: -it is a MySQL driver for the python interface. Providing an interface between the python programming language and the MySQL relational database management system
+D-T1: Module: MySQL 
+         PURPOSE: for creation of database to the customer
+         REQUIREMENT: REQ-SYS-2
+         ENVIORNMENT: this Module is used in the PHP script
+         Operation: render the webpage by typing the following in the URL bar of the browser: localhost/<filename>
+        Expected result: the functions used in the module are used for creation of space in the database e for customers
+        Comment: it updates the database periodically whenever a new customer is added into the database
+D-T2: Module: PHP :: MySQL
+           Purpose: for interaction between PHP and MySQL
+           Requirement: REQ-SYS-2
+           Environment: module must include in the PHP script
+           Operation: the script needs to be executed from its directory
+          Expected result: the functions used from this module in the test script must interact with the MySQL database without errors
+          Result:
+          Comment: interface between MySQL and PHP script
+D-T3 MODULE: python : : MySQL
+         Purpose: for interaction between python and MySQL
+         Requirement: REQ-SYS-2, REQ-SYS-3
+         Environment: module needs to be included in the python script
+         Operation: creation of the replicas and storage of the replicas in MySQL
+         Expected result: the functions used from this module in the test script must interact with the MySQL database without errors
+         Result:
+Comment: interface between MySQL and python
+Module 3: -back end
+The back end of the project is performed over the python language.in here we use the back end for the creation of replicas of the files
+
+
+5.1, detailed design
+The back end is used for the creation of replicas to the files at first the file is randomly uploaded into the server and we create replicas to those files and these are stored in the other servers. The connection to the servers are checked by constant pinging performed by the back end. If the connection is lost with the server, it is informed to the admin server he removes the server and manually repairs it later the verification of the server takes place and see that all the files are present and conformation is done.
+5.2, unit test plan
+B-T1: module: FTP
+           Purpose: it provides a transfer of files from one server to another server
+           Requirement: REQ-NFSYS_3
+           Environment: module must be included in python script
+           Operation: it is executed from the directory
+           Expected result: to receive files
+            Result
+             Comment: it is used to transfer files from a server to another server .it is used to download   files from the server
+
